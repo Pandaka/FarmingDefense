@@ -9,6 +9,8 @@ public class spawn_script : MonoBehaviour {
 	
 	public GameObject mob = null;
 	
+	public Transform destination = null;
+
 
 	// Use this for initialization
 	void Start () {
@@ -17,12 +19,19 @@ public class spawn_script : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		timeLeft -= Time.deltaTime;
-		
-		if (timeLeft <= 0.0f) {
 
-			GameObject g = (GameObject)Instantiate(mob, transform.position, Quaternion.identity);
-			timeLeft = interval;
+		if(player_script.nb_mob_max>player_script.nb_mob)
+		{
+			timeLeft -= Time.deltaTime;
+		
+			if (timeLeft <= 0.0f) {
+
+				GameObject g = (GameObject)Instantiate(mob, transform.position, Quaternion.identity);
+				NavMeshAgent n= g.GetComponent<NavMeshAgent>();
+				n.destination = destination.position;
+				player_script.nb_mob+=1;
+				timeLeft = interval;
+			}
 		}
 	}
 }
