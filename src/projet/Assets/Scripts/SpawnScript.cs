@@ -11,9 +11,12 @@ public class SpawnScript : MonoBehaviour {
 	[SerializeField]
 	Transform self;
 	public Transform destination = null;
+	[SerializeField]
+	GameObject player;
+
 
 	void Update (){
-		if (PlayerScript.nb_mob_max > PlayerScript.nb_mob) {
+		if (player.GetComponent<PlayerScript>().cmp_mob() > 0) {
 			timeLeft -= Time.deltaTime;		
 			if (timeLeft <= 0.0f) {
 				foreach(NavMeshAgent go in mob)
@@ -23,10 +26,10 @@ public class SpawnScript : MonoBehaviour {
 						go.transform.position = self.position;
 						go.gameObject.SetActive(true);
 						go.destination = destination.position;
+						player.GetComponent<PlayerScript>().modif_mob(1);
 						break;
 					}
 				}
-				PlayerScript.nb_mob += 1;
 				timeLeft = interval;
 			}
 		}

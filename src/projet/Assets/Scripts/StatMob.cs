@@ -3,14 +3,25 @@ using System.Collections;
 
 public class StatMob : MonoBehaviour {
 
-	public int attaque = 1;
-	public int defense = 1;
-	public int vitesse = 1;
-	public int cout = 1;
-	public int moneydrop= 50;
+	[SerializeField]
+	int attaque = 1;
+	[SerializeField]
+	int defense = 1;
+	[SerializeField]
+	int vitesse = 1;
+	[SerializeField]
+	int cout = 1;
+	[SerializeField]
+	int moneydrop= 50;
+	[SerializeField]
+	GameObject player_enemi;
+	[SerializeField]
+	GameObject player;
+
 
 	public void onDeath() {
-		PlayerScript.billet += moneydrop;
+		player_enemi.GetComponent<PlayerScript>().modif_Billet(moneydrop);
+		player.GetComponent<PlayerScript>().modif_mob(-1);
 		this.gameObject.SetActive(false);
 	}
 

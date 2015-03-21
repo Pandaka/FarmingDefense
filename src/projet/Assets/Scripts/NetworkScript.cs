@@ -1,10 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class NetworkScript : MonoBehaviour{
-
-	[SerializeField]
-	private GameObject _ballPrefab;
 
 	[SerializeField]
 	private GameObject _spawn;
@@ -12,6 +10,9 @@ public class NetworkScript : MonoBehaviour{
 	[SerializeField]
 	private bool _isBuildingServer = true;
 
+	[SerializeField]
+	private List<GameObject> players;
+	
 	void Start (){
 		Application.runInBackground = true;
 		if (_isBuildingServer){
@@ -24,12 +25,14 @@ public class NetworkScript : MonoBehaviour{
 	}
 
 	void OnPlayerConnected(NetworkPlayer player){
-		networkView.RPC("StartGame", RPCMode.All);
+		foreach(GameObject go in players){
+			if(!go.activeSelf)
+			networkView.RPC("StartGame", RPCMode.All);
+		}
 	}
 
 	[RPC]
 	void StartGame(){
-		_ballPrefab.gameObject.SetActive(true);
 		_spawn.gameObject.SetActive(true);
 	}
 
