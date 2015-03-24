@@ -7,11 +7,9 @@ public class PlayerScript : MonoBehaviour {
 	int billet = 200;
 	[SerializeField]
 	int nb_mob_max = 30;
-	[SerializeField]
 	int nb_mob = 0;
 	[SerializeField]
 	int nb_tower_max = 10;
-	[SerializeField]
 	int nb_tower = 0;
 
 	public void modif_Billet(int modif){

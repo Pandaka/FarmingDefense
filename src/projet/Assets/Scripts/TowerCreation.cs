@@ -10,6 +10,8 @@ public class TowerCreation : MonoBehaviour {
 	List<Transform> tour;
 	[SerializeField]
 	GameObject player;
+	[SerializeField]
+	Camera player_cam;
 
 
 	public Transform map;
@@ -17,8 +19,7 @@ public class TowerCreation : MonoBehaviour {
 	bool impossibleThere;
 
 	void Start () 
-	{
-	}
+	{}
 	
 	void Update () {
 		//si on fait clic gauche
@@ -27,7 +28,7 @@ public class TowerCreation : MonoBehaviour {
 			if(player.GetComponent<PlayerScript>().cmp_tower()>0)
 			{
 				//on capture la position du clic sur la map
-				ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+				ray = player_cam.ScreenPointToRay (Input.mousePosition);
 
 				//vérification qu'on touche la map
 				if (Physics.Raycast (ray, out hit) && hit.collider.gameObject == map.gameObject) {		

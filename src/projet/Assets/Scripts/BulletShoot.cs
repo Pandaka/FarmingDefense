@@ -6,6 +6,7 @@ public class BulletShoot : MonoBehaviour {
 	public int degat;
 
 	void Update () {
+		//Si l'ennemi est désactivé on suprime la Bullet sinon on la bouge jusqu'à sa cible
 		if (enemy.gameObject.activeSelf == false)
 			this.gameObject.SetActive(false);
 		else 
@@ -14,7 +15,9 @@ public class BulletShoot : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider col) {
+		//si la bullet entre en collision avec un mob
 		if (col.gameObject.CompareTag("mob")) {
+			//on appel Hit et on désactive la bullet
 			col.GetComponent<StatMob>().hit(degat);
 			this.gameObject.SetActive(false);
 		}

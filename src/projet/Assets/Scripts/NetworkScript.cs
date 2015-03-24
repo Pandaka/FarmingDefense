@@ -5,15 +5,19 @@ using System.Collections.Generic;
 public class NetworkScript : MonoBehaviour{
 
 	[SerializeField]
-	private GameObject _spawn;
+	private List<GameObject> _spawn;
 	
 	[SerializeField]
 	private bool _isBuildingServer = true;
 
 	[SerializeField]
 	private List<GameObject> players;
-	
+
+	[SerializeField]
+	Camera server_cam;
+
 	void Start (){
+		//le serveur reste allumé si on est plus dessus
 		Application.runInBackground = true;
 		if (_isBuildingServer){
 			Network.InitializeSecurity();
@@ -25,17 +29,22 @@ public class NetworkScript : MonoBehaviour{
 	}
 
 	void OnPlayerConnected(NetworkPlayer player){
-		foreach(GameObject go in players){
-			if(!go.activeSelf)
-			networkView.RPC("StartGame", RPCMode.All);
-		}
+		//on active le "player" pour les joueurs qui se connecte et on lance le jeu
+		networkView.RPC("ActivePlayer",RPCMode.Others,0);
+		networkView.RPC("StartGame", RPCMode.All);
 	}
 
 	[RPC]
 	void StartGame(){
-		_spawn.gameObject.SetActive(true);
+		//on active tout les spawns
+		foreach (GameObject generateur in _spawn)
+			generateur.gameObject.SetActive(true);
 	}
 
-	void Update (){}
+	[RPC]
+	void ActivePlayer(int nb){
+		players[nb].SetActive(true);
+
+	}
 
 }

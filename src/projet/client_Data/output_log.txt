@@ -1,0 +1,673 @@
+Initialize engine version: 4.6.2f1 (bd99309c2ad7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics 3000 (ID=0x116)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Tristan\Documents\projet unity\Farming_Defense\client_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Tristan\Documents\projet unity\Farming_Defense\client_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Tristan\Documents\projet unity\Farming_Defense\client_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Tristan\Documents\projet unity\Farming_Defense\client_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Tristan\Documents\projet unity\Farming_Defense\client_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Tristan\Documents\projet unity\Farming_Defense\client_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.128 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Tristan\Documents\projet unity\Farming_Defense\client_Data\Managed\System.Core.dll (this message is harmless)
+View ID SceneID: 4 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1681)
+
+Received state update for view id' SceneID: 4 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2474)
+
+View ID SceneID: 5 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1681)
+
+Received state update for view id' SceneID: 5 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2474)
+
+View ID SceneID: 4 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1681)
+
+Received state update for view id' SceneID: 4 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2474)
+
+View ID SceneID: 5 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1681)
+
+Received state update for view id' SceneID: 5 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2474)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Received state update for view ID SceneID: 4 Level Prefix: 0 but no initial state has ever been sent. Ignoring message.
+
+ 
+(Filename:  Line: 2463)
+
+Network View synchronization error. Received packet but the observed class is not supported as a synchronization type
+ 
+(Filename:  Line: 311)
+
+Network View synchronization error. Received packet but the observed class is not supported as a synchronization type
+ 
+(Filename:  Line: 311)
+
+The server has disconnected from the client. Most likely the server has shut down.
+ 
+(Filename:  Line: 745)
+
