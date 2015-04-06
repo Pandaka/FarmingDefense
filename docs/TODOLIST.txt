@@ -1,0 +1,13 @@
+TODOLIST BETA
+
+A faire : 
+- Assigner les modèles 3D aux sbires et aux tours
+- Phase de confrontation
+- Condition Victoire/Défaite
+- Gestion connexion des 2 joueurs
+- Didacticiel
+- Interface IG (refaire avec l'UI 4.6)
+- Equilibrage
+- Menu Serveur
+- Ajout différentes Map
+- Amélioration tours
