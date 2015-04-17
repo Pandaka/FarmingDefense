@@ -14,6 +14,9 @@ public class NetworkScript : MonoBehaviour{
 	private List<GameObject> players;
 
 	[SerializeField]
+	private List<PlayerScript> _playerScript;
+
+	[SerializeField]
 	Camera server_cam;
 	
 	[SerializeField]
@@ -22,10 +25,11 @@ public class NetworkScript : MonoBehaviour{
 	private int joueur_connected=0;
 
 	void Start (){
+
 		//le serveur reste allumé si on est plus dessus
 		Application.runInBackground = true;
 		if (_isBuildingServer){
-			server_cam.gameObject.SetActive(false);
+			//server_cam.gameObject.SetActive(false);
 			minimap.rect = new Rect (0f,0f,1f,0.85f) ;
 			Network.InitializeSecurity();
 			Network.InitializeServer(2, 9090, true);
@@ -37,28 +41,13 @@ public class NetworkScript : MonoBehaviour{
 
 	void OnPlayerConnected(NetworkPlayer player){
 		//on active le "player" pour les joueurs qui se connecte et on lance le jeu
-		foreach (var p in players)
-		{
-			if (!p.activeSelf){
-				networkView.RPC("ActivePlayer",RPCMode.Others,0);
-				joueur_connected++;
-				break;
-			}
-		}
-		//if(joueur_connected==2)
+		networkView.RPC("ActivePlayer",RPCMode.OthersBuffered,player,joueur_connected);
+		players[joueur_connected].SetActive(true);
+		joueur_connected++;
+		if(joueur_connected==2)
 			networkView.RPC("StartGame", RPCMode.All);
 	}
-
-	/*void OnConnectedToServer(){
-		foreach (var p in players)
-		{
-			if (!p.activeSelf){
-				networkView.RPC("ActivePlayer",RPCMode.Others,0);
-				joueur_connected++;
-				break;
-			}
-		}
-	}*/
+	
 
 	[RPC]
 	void StartGame(){
@@ -68,9 +57,9 @@ public class NetworkScript : MonoBehaviour{
 	}
 
 	[RPC]
-	void ActivePlayer(int nb){
+	void ActivePlayer(NetworkPlayer player,int nb){
+		_playerScript[nb].Player=player;
+		_playerScript[nb].isPlayer(player ,nb);
 		players[nb].SetActive(true);
-
 	}
-
 }

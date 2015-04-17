@@ -13,10 +13,34 @@ public class PlayerScript : MonoBehaviour {
 	int nb_tower = 0;
 	[SerializeField]
 	SpawnScript[] spawns;
+	[SerializeField]
+	int numero_joueur;
+	[SerializeField]
+	Camera cam_joueur;
 
+	public NetworkPlayer player;
 
+	public NetworkPlayer Player {
+		get {
+			return player;
+		}
+		set {
+			player = value;
+		}
+	}
+
+	public void isPlayer(NetworkPlayer p,int nb)
+	{
+		if(p == player && nb==numero_joueur)
+			cam_joueur.gameObject.SetActive(true);
+	}
+	
 	public float timer = 10.0f;
 
+	public int getNb()
+	{
+		return this.numero_joueur;
+	}
 
 	public void modif_Billet(int modif){
 		this.billet+=modif;

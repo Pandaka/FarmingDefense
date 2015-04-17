@@ -3,24 +3,29 @@ using System.Collections;
 
 public class Resolution : MonoBehaviour {
 
-	public int resolution;
+	public string resolution;
+	private bool stateScreen;
 
-	void ChangeResolution () {
+	void OnMouseUp () {
 
-		switch(resolution){
-		
-		case 480 :
-			Screen.SetResolution(640, 480, true);
-			break;
+		if (Screen.fullScreen)
+			stateScreen = true;
+		else stateScreen = false;
 
-		case 720 :
-			Screen.SetResolution(1280, 720, true);
-			break;
-
-		case 1080 :
-		Screen.SetResolution(1920, 1080, true);
-			break;
-		
+		switch(resolution){		
+			case "480" :
+				Debug.Log(stateScreen);
+				Screen.SetResolution(640, 480, stateScreen);
+				break;	
+			case "720" :
+				Screen.SetResolution(1280, 720, stateScreen);
+				break;
+			case "1080" :
+				Screen.SetResolution(1920, 1080, stateScreen);
+				break;
+			case "full" :
+				Screen.fullScreen = !Screen.fullScreen;
+				break;	
 		}
 	}
 }

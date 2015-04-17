@@ -6,214 +6,30 @@ Direct3D:
     Vendor:   Intel
     VRAM:     128 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Tristan\Dropbox\Farming Defense\Projet\server_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Tristan\Dropbox\Farming Defense\Projet\server_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Tristan\Dropbox\Farming Defense\Projet\server_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Tristan\Dropbox\Farming Defense\Projet\server_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Tristan\Dropbox\Farming Defense\Projet\server_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Tristan\Dropbox\Farming Defense\Projet\server_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.313 seconds
+Platform assembly: C:\Users\Tristan\Documents\projet unity\Farming_Defense\server_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Tristan\Documents\projet unity\Farming_Defense\server_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Tristan\Documents\projet unity\Farming_Defense\server_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Tristan\Documents\projet unity\Farming_Defense\server_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Tristan\Documents\projet unity\Farming_Defense\server_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Tristan\Documents\projet unity\Farming_Defense\server_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.062 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Platform assembly: C:\Users\Tristan\Dropbox\Farming Defense\Projet\server_Data\Managed\System.Core.dll (this message is harmless)
-The connection request to 67.225.180.24:50005 failed. Are you sure the server can be connected to?
+Platform assembly: C:\Users\Tristan\Documents\projet unity\Farming_Defense\server_Data\Managed\System.Core.dll (this message is harmless)
+Who ?1
  
-(Filename:  Line: 650)
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
 
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
+ dans zone X2?False x1?TrueDans zone z ?TrueEncore des tours2 ?True j1?True
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
 
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
+Who ?1
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
 
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
+ dans zone X2?False x1?TrueDans zone z ?TrueEncore des tours2 ?True j1?True
  
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.List`1+Enumerator[UnityEngine.GameObject].MoveNext () [0x00000] in <filename unknown>:0 
-  at TowerShootScript.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
 

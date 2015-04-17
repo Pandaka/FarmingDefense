@@ -130,8 +130,6 @@ public class SpawnScript : MonoBehaviour {
 			}
 			break;
 
-
-
 		}
 	}
 

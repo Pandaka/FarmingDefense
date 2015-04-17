@@ -6,31 +6,14 @@ Direct3D:
     Vendor:   Intel
     VRAM:     128 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Tristan\Dropbox\Farming Defense\Projet\client_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Tristan\Dropbox\Farming Defense\Projet\client_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Tristan\Dropbox\Farming Defense\Projet\client_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Tristan\Dropbox\Farming Defense\Projet\client_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Tristan\Dropbox\Farming Defense\Projet\client_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Tristan\Dropbox\Farming Defense\Projet\client_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.543 seconds
+Platform assembly: C:\Users\Tristan\Documents\projet unity\Farming_Defense\client_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Tristan\Documents\projet unity\Farming_Defense\client_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Tristan\Documents\projet unity\Farming_Defense\client_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Tristan\Documents\projet unity\Farming_Defense\client_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Tristan\Documents\projet unity\Farming_Defense\client_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Tristan\Documents\projet unity\Farming_Defense\client_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.099 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Platform assembly: C:\Users\Tristan\Dropbox\Farming Defense\Projet\client_Data\Managed\System.Core.dll (this message is harmless)
-UnloadTime: 0.517852 ms
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 196.
-Total: 1.402605 ms (FindLiveObjects: 0.021381 ms CreateObjectMapping: 0.037203 ms MarkObjects: 0.330980 ms  DeleteObjects: 0.007269 ms)
-
-UnloadTime: 0.665809 ms
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 4848.
-Total: 2.332686 ms (FindLiveObjects: 0.313448 ms CreateObjectMapping: 0.041907 ms MarkObjects: 0.975837 ms  DeleteObjects: 0.098353 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TowerShootScript.feu (Int32 idBullet) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
+Platform assembly: C:\Users\Tristan\Documents\projet unity\Farming_Defense\client_Data\Managed\System.Core.dll (this message is harmless)

@@ -40,7 +40,7 @@ public class TowerShootScript : MonoBehaviour {
 		}
 	}
 
-	void Update () {
+	void FixedUpdate () {
 		//si on est le serveur on fait le timer d'attaque
 		if (Network.isServer)
 		{

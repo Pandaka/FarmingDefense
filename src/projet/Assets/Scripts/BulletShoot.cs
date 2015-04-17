@@ -22,7 +22,7 @@ public class BulletShoot : MonoBehaviour {
 		this.pos_tower=bullet;
 	}
 	
-	void Update () {
+	void FixedUpdate () {
 		//Si l'ennemi est désactivé on suprime la Bullet sinon on la bouge jusqu'à sa cible
 		if (enemy==null || enemy.gameObject.activeSelf == false)
 		{
