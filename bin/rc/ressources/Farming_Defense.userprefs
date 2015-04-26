@@ -1,0 +1,22 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ConfrontationStat.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Navigation.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\StatTower.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TowerUpgrade.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TowerCreation.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\WinLoseScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BulletShoot.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TowerShootScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\NetworkScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ConfrontationStat.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

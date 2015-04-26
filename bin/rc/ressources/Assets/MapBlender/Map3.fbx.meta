@@ -1,0 +1,97 @@
+fileFormatVersion: 2
+guid: 653416fbd10fb9d4eb87d035b4998aad
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Barrieres
+    100002: Ferme
+    100004: //RootNode
+    100006: Muraille_Ferme
+    100008: Muraille_Usine
+    100010: Obstacles
+    100012: Terrain
+    100014: Usine
+    400000: Barrieres
+    400002: Ferme
+    400004: //RootNode
+    400006: Muraille_Ferme
+    400008: Muraille_Usine
+    400010: Obstacles
+    400012: Terrain
+    400014: Usine
+    2300000: Barrieres
+    2300002: Ferme
+    2300004: Muraille_Ferme
+    2300006: Muraille_Usine
+    2300008: Obstacles
+    2300010: Terrain
+    2300012: Usine
+    3300000: Barrieres
+    3300002: Ferme
+    3300004: Muraille_Ferme
+    3300006: Muraille_Usine
+    3300008: Obstacles
+    3300010: Terrain
+    3300012: Usine
+    4300000: Muraille_Usine
+    4300002: Muraille_Ferme
+    4300004: Barrieres
+    4300006: Usine
+    4300008: Ferme
+    4300010: Terrain
+    4300012: Obstacles
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
