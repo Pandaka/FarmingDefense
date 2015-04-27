@@ -12,6 +12,8 @@ public class NetworkScript : MonoBehaviour{
 
 	[SerializeField]
 	private List<GameObject> players;
+	[SerializeField]
+	private List<GameObject> cameras;
 
 	[SerializeField]
 	private List<PlayerScript> _playerScript;
@@ -42,8 +44,11 @@ public class NetworkScript : MonoBehaviour{
 	void OnPlayerConnected(NetworkPlayer player){
 		//on active le "player" pour les joueurs qui se connecte et on lance le jeu
 		networkView.RPC("ActivePlayer",RPCMode.OthersBuffered,player,joueur_connected);
+
+		_playerScript[joueur_connected].PlayerNetwork = players[joueur_connected].networkView;
 		players[joueur_connected].SetActive(true);
 		joueur_connected++;
+
 		if(joueur_connected==2)
 			networkView.RPC("StartGame", RPCMode.All);
 	}

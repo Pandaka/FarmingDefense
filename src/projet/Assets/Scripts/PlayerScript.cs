@@ -18,7 +18,8 @@ public class PlayerScript : MonoBehaviour {
 	[SerializeField]
 	Camera cam_joueur;
 
-	public NetworkPlayer player;
+	private NetworkPlayer player;
+	private NetworkView playerNetwork;
 
 	public NetworkPlayer Player {
 		get {
@@ -28,6 +29,15 @@ public class PlayerScript : MonoBehaviour {
 			player = value;
 		}
 	}
+	public NetworkView PlayerNetwork {
+		get {
+			return playerNetwork;
+		}
+		set {
+			playerNetwork = value;
+		}
+	}
+
 
 	public void isPlayer(NetworkPlayer p,int nb)
 	{
