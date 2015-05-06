@@ -1,31 +1,36 @@
 Initialize engine version: 4.6.2f1 (bd99309c2ad7)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: AMD Mobility Radeon HD 5000 Series (ID=0x68c1)
-    Vendor:   ATI
-    VRAM:     1014 MB
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics 3000 (ID=0x116)
+    Vendor:   Intel
+    VRAM:     128 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\KILL\Dropbox\Metal Head Studio\ProjetPanda_FarmingDefense\rendu final\client_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\KILL\Dropbox\Metal Head Studio\ProjetPanda_FarmingDefense\rendu final\client_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\KILL\Dropbox\Metal Head Studio\ProjetPanda_FarmingDefense\rendu final\client_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\KILL\Dropbox\Metal Head Studio\ProjetPanda_FarmingDefense\rendu final\client_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\KILL\Dropbox\Metal Head Studio\ProjetPanda_FarmingDefense\rendu final\client_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\KILL\Dropbox\Metal Head Studio\ProjetPanda_FarmingDefense\rendu final\client_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.070 seconds
-desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+Platform assembly: C:\Users\Tristan\Desktop\FarmingDefense\bin\rc\client_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Tristan\Desktop\FarmingDefense\bin\rc\client_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Tristan\Desktop\FarmingDefense\bin\rc\client_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Tristan\Desktop\FarmingDefense\bin\rc\client_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Tristan\Desktop\FarmingDefense\bin\rc\client_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Tristan\Desktop\FarmingDefense\bin\rc\client_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.199 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Platform assembly: C:\Users\KILL\Dropbox\Metal Head Studio\ProjetPanda_FarmingDefense\rendu final\client_Data\Managed\System.Core.dll (this message is harmless)
-UnloadTime: 0.440383 ms
+Platform assembly: C:\Users\Tristan\Desktop\FarmingDefense\bin\rc\client_Data\Managed\System.Core.dll (this message is harmless)
+UnloadTime: 0.756899 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 204.
-Total: 1.340783 ms (FindLiveObjects: 0.011163 ms CreateObjectMapping: 0.013088 ms MarkObjects: 0.149745 ms  DeleteObjects: 0.004619 ms)
+Total: 1.301269 ms (FindLiveObjects: 0.014539 ms CreateObjectMapping: 0.015394 ms MarkObjects: 0.229635 ms  DeleteObjects: 0.011545 ms)
 
-UnloadTime: 0.465790 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+Platform assembly: C:\Users\Tristan\Desktop\FarmingDefense\bin\rc\client_Data\Managed\System.dll (this message is harmless)
+UnloadTime: 1.168704 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 212.
-Total: 1.360801 ms (FindLiveObjects: 0.011548 ms CreateObjectMapping: 0.014243 ms MarkObjects: 0.163989 ms  DeleteObjects: 0.005004 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 5556.
+Total: 10.179663 ms (FindLiveObjects: 1.089166 ms CreateObjectMapping: 0.111183 ms MarkObjects: 6.270723 ms  DeleteObjects: 0.352792 ms)
+
+The connection request to 127.0.0.1:9090 failed. Are you sure the server can be connected to?
+ 
+(Filename:  Line: 650)
 
